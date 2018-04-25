@@ -14,9 +14,9 @@ a{
 }
 
 body {
+  height: 200vh;
   width: 100%;
-  background-color: #f9fafc;
-  
+  background-color: #f9fafc;  
 }
 
 nav {
@@ -154,4 +154,3 @@ h1 {
   right: 50%;
   transform: translateX(50%)
 }
-
