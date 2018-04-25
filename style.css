@@ -38,7 +38,7 @@ ul {
   font-size: 1.2rem;
   float: left;
   list-style: none;
-  letter-spacing: .15rem;
+  letter-spacing: .075rem;
 }
 
 .navLinks:not(:last-child) {
