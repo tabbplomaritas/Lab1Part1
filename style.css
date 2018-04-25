@@ -21,14 +21,16 @@ body {
 
 nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   top: 0;
-  height: 10rem;
+  height: 18rem;
   padding: 1rem;
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
   padding: .5rem;
 }
 
@@ -36,7 +38,7 @@ ul {
   margin-right: 1.6rem;
   color: #69696a;
   font-size: 1.2rem;
-  float: left;
+  margin-top: .75rem;
   list-style: none;
   letter-spacing: .075rem;
 }
@@ -45,7 +47,13 @@ ul {
   margin-top: .75rem;
 }
 
-.btn {
+.navLinks:last-child {
+  margin-top: .75rem;
+}
+
+button {
+  width: 90%;
+  height: 3.5rem;
   text-align: center;
   display: inline-block;
   padding: .75rem 3rem;
@@ -56,8 +64,13 @@ ul {
   font-size: 1.2rem;
 }
 
-.btn a {
+ul button {
+  width: 100%;
+}
+
+button a {
   color: #f9fafc;
+
 }
 
 nav #brand {
@@ -69,7 +82,7 @@ nav #brand {
 }
 
 main {
-  margin: 10rem 3rem;
+  margin: 5rem 3rem;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -83,8 +96,8 @@ h1 {
 
 .welcome {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: auto;
 }
@@ -92,8 +105,8 @@ h1 {
 .welcome p {
   display: inline-block;
   height: 37%;
-  width: 50%;
-  margin-top: 3rem;
+  width: 100%;
+  margin: 3rem 0;
   padding-left: 1rem;
   border-left: .2rem solid #69696a;
   color: #69696a;
@@ -102,10 +115,10 @@ h1 {
 }
 
 .circles {
-  width: 35rem;
-  height: 35rem;
+  display: none;
+  width: 25rem;
+  height: 25rem;
   position: relative;
-  margin-right: 1rem;
 }
 
 .circ {
@@ -144,6 +157,7 @@ h1 {
 
 #scrollDown {
   margin-bottom: 2rem;
+  width: 95%;
   position: absolute;
   bottom: 0;
   right: 50%;

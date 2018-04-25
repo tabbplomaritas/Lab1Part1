@@ -1,0 +1,58 @@
+/* TABLET STYLES */
+@media screen and (min-width: 650px) {
+
+  .circles {
+    display: block;
+  }
+
+  .welcome {
+  flex-direction: column;
+  }
+}
+
+
+/* //desktop styles */
+
+@media screen and (min-width: 850px) {
+
+  main {
+  margin: 10rem 3rem;
+  }
+
+  .welcome {
+    flex-direction: row;
+  }
+
+  .welcome p {
+    width: 50%;
+  }
+
+
+  nav {
+    flex-direction: row;
+    height: 10rem;
+  }
+
+  .navLinks:last-child {
+    margin-top: 0;
+  }
+
+  ul {
+  flex-direction: row;
+
+  }
+
+  ul button {
+    width: 13rem;
+  }
+
+  .circles {
+    height: 35rem;
+    width: 35rem;
+    margin-right: 1rem;
+  }
+
+  #scrollDown {
+    width: 13rem;
+  }
+}
